@@ -1,0 +1,247 @@
+/**font family**/
+
+@font-face {
+    font-family: "EpocaClassic-Regular";
+    src: url("../fonts/EpocaClassic-Regular.eot");
+    src: url("../fonts/EpocaClassic-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-Regular.woff2") format("woff2"), url("../fonts/EpocaClassic-Regular.woff") format("woff"), url("../fonts/EpocaClassic-Regular.ttf") format("truetype"), url("../fonts/EpocaClassic-Regular.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: "EpocaClassic-Light";
+    src: url("../fonts/EpocaClassic-Light.eot");
+    src: url("../fonts/EpocaClassic-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-Light.woff2") format("woff2"), url("../fonts/EpocaClassic-Light.woff") format("woff"), url("../fonts/EpocaClassic-Light.ttf") format("truetype"), url("../fonts/EpocaClassic-Light.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: "EpocaClassic-LightItalic";
+    src: url("../fonts/EpocaClassic-LightItalic.eot");
+    src: url("../fonts/EpocaClassic-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-LightItalic.woff2") format("woff2"), url("../fonts/EpocaClassic-LightItalic.woff") format("woff"), url("../fonts/EpocaClassic-LightItalic.ttf") format("truetype"), url("../fonts/EpocaClassic-LightItalic.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: "EpocaClassic-ExtraLight";
+    src: url("../fonts/EpocaClassic-ExtraLight.eot");
+    src: url("../fonts/EpocaClassic-ExtraLight.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-ExtraLight.woff2") format("woff2"), url("../fonts/EpocaClassic-ExtraLight.woff") format("woff"), url("../fonts/EpocaClassic-ExtraLight.ttf") format("truetype"), url("../fonts/EpocaClassic-ExtraLight.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: "EpocaClassic-Medium";
+    src: url("../fonts/EpocaClassic-Medium.eot");
+    src: url("../fonts/EpocaClassic-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-Medium.woff2") format("woff2"), url("../fonts/EpocaClassic-Medium.woff") format("woff"), url("../fonts/EpocaClassic-Medium.ttf") format("truetype"), url("../fonts/EpocaClassic-Medium.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ @font-face {
+    font-family: "EpocaClassic-Bold";
+    src: url("../fonts/EpocaClassic-Bold.eot");
+    src: url("../fonts/EpocaClassic-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/EpocaClassic-Bold.woff2") format("woff2"), url("../fonts/EpocaClassic-Bold.woff") format("woff"), url("../fonts/EpocaClassic-Bold.ttf") format("truetype"), url("../fonts/EpocaClassic-Bold.svg#Montserrat") format("svg");
+    font-weight: normal;
+    font-style: normal;
+ }
+ .EpocaClassic-LightItalic, .EpocaClassic-LightItalic p {
+    font-family: "EpocaClassic-LightItalic";
+ }
+ .EpocaClassic-ExtraLight, .EpocaClassic-ExtraLight p {
+    font-family: "EpocaClassic-ExtraLight";
+ }
+ .EpocaClassic-Light, .EpocaClassic-Light p {
+    font-family: ".EpocaClassic-Light";
+ }
+ .EpocaClassic-Medium, .EpocaClassic-Medium p {
+    font-family: "EpocaClassic-Medium";
+ }
+ .EpocaClassic-Bold, .EpocaClassic-Bold p {
+    font-family: "EpocaClassic-Bold";
+ }
+ .EpocaClassic-Regular, .EpocaClassic-Regular p {
+    font-family: "EpocaClassic-Regular";
+ }
+ /**input field styling**/
+ 
+ ::-webkit-input-placeholder {
+    color: #999999;
+ }
+ ::-moz-placeholder {
+    color: #999999;
+ }
+ :-ms-input-placeholder {
+    color: #999999;
+ }
+ :-moz-placeholder {
+    color: #999999;
+ }
+ [type=color]:focus, [type=date]:focus, [type=datetime-local]:focus, [type=datetime]:focus, [type=email]:focus, [type=month]:focus, [type=number]:focus, [type=password]:focus, [type=search]:focus, [type=tel]:focus, [type=text]:focus, [type=time]:focus, [type=url]:focus, [type=week]:focus, textarea:focus {
+    outline: 0;
+    border: 1px solid #b28335;
+    background-color: #fefefe;
+    box-shadow: 0 0 5px #b28335
+ }
+ input[type="text"], select, textarea {
+    min-height: 45px;
+    width: 100%;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    box-shadow: none;
+    font-family: "EpocaClassic-LightItalic";
+    font-size: 12px;
+    resize: none;
+ }
+ textarea {
+    min-height: 100px;
+ }
+ p {
+    font-size: 18px;
+    font-family: "EpocaClassic-Regular";
+ }
+ h1, h2 {
+    font-family: "EpocaClassic-Bold";
+    line-height: normal;
+ }
+ h1 span {
+    font-family: "EpocaClassic-Bold";
+    clear: both;
+    font-size: 1.75rem;
+    display: block;
+ }
+ .center {
+    margin: auto;
+    text-align: center;
+ }
+ .panel.form {
+    margin: 0px;
+    border: none;
+    background: #E1E1E1;
+    padding: 3%;
+ }
+ .fullWidth {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: initial;
+ }
+ .banner {
+    background-image: url(../img/banner.jpg);
+    height: auto;
+    min-height: 600px;
+ }
+ .banner h1, .banner p {
+    color: white;
+ }
+ .banner button {
+    background-color: #6FB61B;
+    padding: 0.9rem 3rem 0.9rem 3rem;
+    border-radius: 10px;
+ }
+ .banner .row.fullWidth .large-6 {
+    padding: 3%;
+    margin: 5% 0px 0px 0px;
+ }
+ .row.fullWidth.collapse .large-7 {
+    padding: 3% 3% 0px 3%;
+ }
+ .gradient {
+    background: #e7e7e7;
+    background: linear-gradient(#e7e7e7, #f8f8f8);
+ }
+ .videos {
+    background-color: #70B71B;
+    box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+    padding: 3%;
+ }
+ .videos h2 {
+    color: white;
+    text-align: center;
+    font-family: "EpocaClassic-Bold";
+ }
+ .videos p {
+    color: white;
+    text-align: center;
+ }
+ .flowplayer .fp-controls, .flowplayer .fp-header {
+    opacity: 0 !important;
+ }
+ .flowplayer:hover .fp-controls, .flowplayer:hover .fp-header {
+    opacity: 1 !important;
+ }
+ .flowplayer.fp-playful .fp-color-play {
+    fill: #ffffff !important;
+    background-color: #ffffff;
+ }
+ .flowplayer.fp-playful b {
+    fill: #000000 !important;
+ }
+ .panel h3 {
+    font-family: "EpocaClassic-Bold";
+    font-size: 28px;
+    padding: 5% 0px 5% 0px;
+ }
+ footer .footer-top {
+    background: #f9f9f9;
+    padding: 1rem;
+ }
+ .footer-top a, .footer-top p {
+    font-size: 11px;
+    margin: 0px;
+    color: #666666;
+    padding: 0px;
+    font-size: 14px;
+    text-transform: capitalize;
+ }
+ footer .footer-top ul {
+    margin: 0 auto;
+    text-align: center;
+ }
+ .social-icon li {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    border-radius: 30px;
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+ }
+ .social-icon li.facebook {
+    background: #3C5A9A;
+ }
+ .social-icon li.instagram {
+    background: #D3256C;
+ }
+ .social-icon li.twitter {
+    background: #00ACEE;
+ }
+ .social-icon li.linkedin {
+    background: #0478B5;
+ }
+ .social-icon li .fa {
+    color: white;
+ }
+ .footer-bottom.panel {
+    background: #01553D;
+    overflow: auto;
+    padding: 1rem 3% 1rem 3%;
+    margin: 0px;
+    border: none;
+ }
+ .footer-bottom p {
+    color: white;
+    font-family: "EpocaClassic-Light";
+    font-size: 11px;
+    margin: 15px 0px 15px 0px;
+ }
+ /*media query*/
+ @media (max-width: 767px) {
+     .footer-bottom .right{
+         float: left !important;
+
+     }
+ }
